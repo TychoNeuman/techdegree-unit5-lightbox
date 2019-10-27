@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+img {
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+    background-color: lightgray;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#searchbox {
+    flex-grow: .3;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    margin: 20px;
+}
+
+.flex-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
