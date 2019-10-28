@@ -28,6 +28,7 @@ input {
 .container {
     width: 80%;
     margin: auto;
+    max-width: 1024px;
 }
 
 .flex-container {
