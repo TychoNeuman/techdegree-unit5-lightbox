@@ -15,8 +15,8 @@ $m_sSearchBox.keyup(function(){
      */
     $("a").each(function() {
         if(l_sUserInput !== ''){
-            l_sDataTitle = $(this).attr('data-title');
-            if(l_sDataTitle.indexOf(l_sUserInput) > -1){
+            l_sDataTitle = $(this).attr('data-title').toLowerCase();
+            if(l_sDataTitle.indexOf(l_sUserInput.toLowerCase()) > -1){
                 $(this).show();
             } else{
                 $(this).hide();
