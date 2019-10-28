@@ -60,12 +60,4 @@ input {
         width: 60%;
         margin: auto;
     }
-    
-    .flex-container {
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
 }
