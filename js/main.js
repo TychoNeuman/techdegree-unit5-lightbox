@@ -1,4 +1,3 @@
-const $m_sGalleryPicture = $('.flex-container img');
 const $m_sSearchBox = $('#searchbox');
 
 let l_sUserInput = '';
